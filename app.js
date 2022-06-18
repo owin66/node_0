@@ -1,4 +1,7 @@
-fs = require('fs')
+const {stealRing, characters} = require('./characters')
 
-const data = fs.readFileSync('./data.txt');
-console.log(data.toString());
+stealRing(characters, 'Frodo');
+
+for (const c of characters) {
+    console.log(c)
+}

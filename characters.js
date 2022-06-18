@@ -12,3 +12,5 @@ function stealRing(characters, owner) {
         }
     })
 }
+
+module.exports = {characters, stealRing}
