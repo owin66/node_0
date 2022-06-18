@@ -1,19 +1,5 @@
-const {a} = require('./app')
-
-// let characters = [
-//     {name: 'Frodo', hasRing: false},
-//     {name: 'Bilbo', hasRing: false},
-// ];
-//
-// function stealRing(characters, owner) {
-//     return characters.map(c => {
-//         if (c.name === owner) {
-//             c.hasRing = true
-//         } else {
-//             c.hasRing = false
-//         }
-//     })
-// }
+/*const {a} = require('./app')*/
+console.log('Загружено characters.js')
 
 module.exports = function log() {
     console.log('log')
