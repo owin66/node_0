@@ -1,7 +1,10 @@
-const {stealRing, characters} = require('./characters')
-
-stealRing(characters, 'Frodo');
-
-for (const c of characters) {
-    console.log(c)
+const a = 1
+if(a>0){
+    const log = require('./characters')
+    log()
 }
+console.log('menshe 0')
+
+
+
+
