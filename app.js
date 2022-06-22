@@ -45,3 +45,13 @@ myEmitter.on('error', (err) =>{
 })
 myEmitter.emit('error', new Error('BOOM'))
 
+
+
+const target = new EventTarget()
+
+const logTarget = () =>{
+    console.log('Connect to target')
+}
+
+target.addEventListener('connected', logTarget)
+target.dispatchEvent(new Event('connected'))
