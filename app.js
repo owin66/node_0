@@ -7,3 +7,4 @@ const logDbConnection = () => {
 }
 
 myEmitter.addListener('connected', logDbConnection);
+myEmitter.emit('connected')
