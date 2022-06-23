@@ -46,7 +46,6 @@ myEmitter.on('error', (err) =>{
 myEmitter.emit('error', new Error('BOOM'))
 
 
-
 const target = new EventTarget()
 
 const logTarget = () =>{
