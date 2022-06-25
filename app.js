@@ -48,6 +48,7 @@ myEmitter.emit('error', new Error('BOOM'))
 
 const target = new EventTarget()
 
+
 const logTarget = () =>{
     console.log('Connect to target')
 }
